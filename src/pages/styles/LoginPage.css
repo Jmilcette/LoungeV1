@@ -1,0 +1,16 @@
+.LoginPage Form{
+    width:25%;
+  }
+
+.LoginPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.loginPageHeader{
+    color:coral;
+}

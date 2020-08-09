@@ -1,0 +1,18 @@
+.body{
+    background-color:#FCEDDA;
+    justify-content: center;
+    text-align: center;
+}
+
+.profilePic{
+    transform: scale(1.5);
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.ButtonsTop{
+    margin-top: 400px;
+    padding-top: 400px;
+    height: 75px;
+}

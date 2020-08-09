@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600;700&display=swap');
+
+.App {
+  background-color:#FCEDDA;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-outline-success {
+  color: #EE4E34;
+  border-color: #EE4E34;
+}
+
+.content {
+  float: right;
+  width: 70%;
+  font-size: x-large;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 228, 218, 0.9);
+  border-radius: 0px;
+  border:1px solid rgb(150, 150, 150);
+  padding-left: 20px;
+}
+
+.Head {
+  font-size: 5em;
+  background-color: rgba(255, 228, 218, 0.9);
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.color-nav {
+  background-color:#FCEDDA;
+}
+
+.topBlock {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  
+}
+
+.brand {
+  font-weight: 500;
+  color:white!important;
+}
+
+.jumbotron {
+  display:flex;
+  flex-grow: 2;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right:10px;
+  background: #fdb092!important;
+  padding: 16px!important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: .3rem;
+  height: 800px;
+  max-width:1080px;
+}
+
+.two {
+  font-size: 20px;
+}
+
+.Placeholder {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%!important;
+  margin:10px;
+}
+
+
+.smallImage {
+  width: 60px!important;
+  height: 60px!important;
+  border-radius: 50%!important;
+  margin:10px!important;
+}
+
+.Posts {
+  /* box-shadow:1px 1px 1px 1px#888888; */
+  border-radius: .25rem;
+  background-color:#fdb092;
+  overflow-y: scroll;
+  position: relative;
+  height: 800px;
+  
+
+}
+
+.button {
+  background-color: #EE4E34!important;
+  color: white!important;
+  border-color:#EE4E34!important;
+  font-family: 'Rajdhani', sans-serif!important;
+  margin:10px;
+  margin-left:0px;
+}
+
+p.card-text {
+  /* box-shadow:1px 1px 1px 1px#888888; */
+  text-align: center;
+}
+
+
+.card {
+  border: none!important;
+  margin: 10px;
+  border-radius: .25rem;
+  border:.3px;
+  border-color:#ff5f47;
+}
+
+.card-title.h5 {
+  font-weight: 700;
+}
+
+.card-body {
+  text-align: center;
+  /* width:400px!important; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: .3rem;
+}
+
+.navbar {
+  background: #ff5f47!important;
+}
+
+.navbar-nav {
+  font-size: 20px;
+}
+
+#dropdown-basic {
+  background-color: #EE4E34;
+  border-color: #EE4E34;
+  
+}
+
+.mr-auto {
+  margin-right: 10px!important;
+}
+
+
+.Avi {
+  display:flex;
+  background:#FCEDDA;
+  width: 700px;
+  height: 300px;
+  font-family: 'Rajdhani', sans-serif!important;
+  color:#ff5f47!important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: .1rem;
+  
+}
+.blackText {
+  color:#282c34;
+  font-weight: 600!important;
+}
+
+.redText {
+  color:#ff5f47!important;
+}
+
+.info {
+  text-align: start;
+  margin-top:30px;
+  width: 400px;
+  font-weight: 500!important;
+}
+
+.three {
+  width: 220;
+
+}
+
+body {
+  background-color: rgba(255, 228, 218, 0.9);
+}
+
+.description {
+  margin-left: auto;
+  margin-right: auto;
+  width:600px;
+  height: 250px;
+  background: #fdb092!important;
+  border-radius: .25rem;
+}
+
+.experience {
+  display:block;
+  text-align:start ;
+  width: 1080px;
+  height: 350px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: .1rem;
+  background: #FCEDDA!important;
+  overflow-y: scroll;
+}
+
+.experienceCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: .3rem;
+  padding: 10px;
+  margin:10px;
+  background: white;
+}
+
+hr.solid {
+  border-top: 3px solid #EE4E34;
+}
+
+.logoss {
+  width:80px;
+  height:45px;
+  padding-top:10px;
+}

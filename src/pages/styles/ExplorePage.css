@@ -1,0 +1,107 @@
+body {
+    background-color: #FCEDDA;
+}
+
+body .p-button {
+    background-color: #f9af99;
+}
+
+.p-button p-component csvButton p-button-text-icon-left {
+    background-color: #f9af99;
+}
+.ExplorePageBody {
+    
+    font-family: Rajdhani;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    padding: 15px;
+    color: #ee4e34;
+    font-size: 2.0rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.FilterBy{
+    grid-area: fl;
+    /* padding: 10px; */
+    font-weight:bold;
+    font-size: 1.2rem;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdownGroup .p-dropdown{
+    width: 100px;
+    margin: 10px 10px;
+}
+
+/* .QuestionDrop {
+    margin: 10px;
+    width: 100px;
+
+} */
+
+/* BEGINNING OF TABLES */
+
+.TableGrid {
+    display: flex;
+    grid-area: tb;
+    margin: 15px;
+}
+
+.DataTableTitle {
+    font-size: 1.5em;
+}
+.p-button p-component csvButton  {
+    background: #f37057;
+}
+.csvButton {
+    text-align: right;
+    margin: 0 0 0 10px;
+    background: #f37057;
+}
+
+.CatDropDown {
+    overflow:visible;
+    min-width:0;
+}
+
+.ColHeader {
+    color: #ee4e34;   
+}
+
+.TableGrid {
+    grid-area: tb;
+}
+
+.Table1 {
+    grid-area: tb1;
+}
+
+.Table2 {
+    grid-area: tb2;
+}
+.TableGrid .p-datatable {
+    /* grid-area: tb1; */
+    padding: 5px 50px;
+    font-family: Rajdhani;
+    text-align: center;
+    font-weight: 600;
+}
+
+.TableGrid .p-dropdown {
+    font-family: Rajdhani;
+}
+
+.SuggestionBox {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

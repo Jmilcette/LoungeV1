@@ -1,0 +1,21 @@
+.messageTitle{
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+aside {
+    float: left;
+    color: rgb(0, 0, 0);
+    font-family: Rajdhani;
+    background-color: rgba(255, 228, 218, 0.9);
+    border-radius: 0px;
+  }
+  
+  .UserList {
+    list-style-type: none;
+    text-align: left;
+    font-size: xx-large;
+    /* border:1px solid rgb(150, 150, 150); */
+    padding:20px;
+  }

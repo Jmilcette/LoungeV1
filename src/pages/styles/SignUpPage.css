@@ -1,0 +1,16 @@
+.signUpPageHeader{
+    color: coral;
+}
+
+.SignUpPage Form{
+    width:25%;
+}
+
+  .SignUpPage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+
